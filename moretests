@@ -1,0 +1,23 @@
+./a.out "" ""
+./a.out "" EmptyFirstString
+./a.out EmptySecondString ""
+./a.out BothStringsEqual BothStringsEqual
+./a.out aaaa aaaabbbb
+./a.out aaaa bbbbaaaa
+./a.out aaaaaaaa bbbbbbbb
+./a.out Cabababab Cbabababa
+./a.out ABCABBA CBABAC
+./a.out 123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890 abcdefg
+./a.out abcdefg 123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890
+
+./a.out abcdef ace
+./a.out ace abcdef
+
+./a.out abcdef bdf
+./a.out bdf abcdef
+
+./a.out aaaaabbbbbcccccdddddeeeeefffff aaaaaccccceeeee
+./a.out aaaaaccccceeeee aaaaabbbbbcccccdddddeeeeefffff
+
+./a.out aaaaabbbbbcccccdddddeeeeefffff bbbbbdddddfffff
+./a.out bbbbbdddddfffff aaaaabbbbbcccccdddddeeeeefffff

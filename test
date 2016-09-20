@@ -1,0 +1,15 @@
+./a.out abcdef ace
+./a.out ace abcdef
+
+./a.out abcdef bdf
+./a.out bdf abcdef
+
+./a.out aaaaabbbbbcccccdddddeeeeefffff aaaaaccccceeeee
+./a.out aaaaaccccceeeee aaaaabbbbbcccccdddddeeeeefffff
+
+./a.out aaaaabbbbbcccccdddddeeeeefffff bbbbbdddddfffff
+./a.out bbbbbdddddfffff aaaaabbbbbcccccdddddeeeeefffff
+
+./a.out abbcccddddeeeeeffffffggggggghhhhhhhhiiiiiiiiijjjjjjjjjjkkkkkkkkkkkllllllllllllmmmmmmmmmmmmmnnnnnnnnnnnnnnooooooooooooooopppppppppppppppp accceeeeegggggggiiiiiiiiikkkkkkkkkkkmmmmmmmmmmmmmooooooooooooooo
+./a.out accceeeeegggggggiiiiiiiiikkkkkkkkkkkmmmmmmmmmmmmmooooooooooooooo abbcccddddeeeeeffffffggggggghhhhhhhhiiiiiiiiijjjjjjjjjjkkkkkkkkkkkllllllllllllmmmmmmmmmmmmmnnnnnnnnnnnnnnooooooooooooooopppppppppppppppp
+
