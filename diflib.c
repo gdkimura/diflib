@@ -246,7 +246,7 @@ int ConstructEditScript(PEDIT_SCRIPT_ENTRY EditScript,     //PEDIT_SCRIPT_ENTRY 
   //
 
   //printf("\nReverse back pointers\n");
-  for (i = EndIndex, k = -1; i != 0; 0) {
+  for (i = EndIndex, k = -1; i != 0;) {
     j = V[i].Back;
     V[i].Back = k;
     k = i;
@@ -274,7 +274,7 @@ int ConstructEditScript(PEDIT_SCRIPT_ENTRY EditScript,     //PEDIT_SCRIPT_ENTRY 
   //  like issue delete 1 char, delete 1 char, delete 1 char.  But instead issue a delete 3 char.
   //
   
-  for (i = 0; CurrentVIndex != -1; 0) {
+  for (i = 0; CurrentVIndex != -1;) {
     if (V[CurrentVIndex].IsDelete) {
 
       if (i < V[CurrentVIndex].Index) {
