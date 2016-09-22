@@ -405,7 +405,7 @@ int ComputeEditScript (char *OldString,
   //  start properly
   //
 
-  MaxVSize = (OldStringLength+1) * (NewStringLength+1);
+  MaxVSize = (OldStringLength+1) + (NewStringLength+1);
   if ((V = malloc(sizeof(WORK_SPACE_ENTRY) * MaxVSize * (MaxVSize+1))) == NULL) return -2;
   for (D = 0; D < MaxVSize; D++){
     for (k = -D; k <= D; k += 2){
