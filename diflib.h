@@ -1,6 +1,10 @@
 #ifndef _DIFLIB_
 #define _DIFLIB_
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 int ComputeEditScript (char *OldString,
 		       int OldStringLength,
 		       char *NewString,
@@ -14,5 +18,9 @@ int ApplyEditScript( char *OldString,
 		     int EditScriptLength,
 		     char *NewString,
 		     int NewStringLength);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif // _DIFLIB_
